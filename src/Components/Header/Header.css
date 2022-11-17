@@ -1,0 +1,35 @@
+.nav-style{
+    border-radius: 20px;
+    background-color: var(--header-background);
+}
+
+.nav-link > a{
+    margin-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link > a:hover{
+    background-color: orangered;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.activeBtn{
+    background-color: orangered;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 6px;
+    transition: 0.5s;
+}
+
+.profile-image{
+    width: 25px;
+    cursor: pointer;
+}
+
+.point{
+    cursor: pointer;
+}

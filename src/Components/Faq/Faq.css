@@ -1,0 +1,8 @@
+#faq-bg-control{
+    background-color: var(--faq-card-bg) !important;
+    color: var(--text-primary) !important;
+}
+
+.faq-head-bg{
+    color: var(--text-primary);
+}

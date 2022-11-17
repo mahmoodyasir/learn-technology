@@ -1,0 +1,45 @@
+.instructor {
+    font-family: "Comic Sans MS";
+    color: #5b3979;
+    font-size: 18px;
+}
+
+.title {
+    background-color: #5b3979;
+    color: white;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.title:hover {
+    background-color: #0099ff;
+    padding: 12px 0;
+    transition: 0.5s;
+}
+
+.shadow-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.details {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-decoration: none;
+    background-color: #5b3979;
+    color: white;
+    padding: 6px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.details:hover {
+    background-color: #0099ff;
+    padding: 10px 30px;
+    color: white;
+    transition: 0.5s;
+}
+
+.card-list-bg-control {
+    background-color: var(--course-card-bg) !important;
+    color: var(--text-primary);
+}

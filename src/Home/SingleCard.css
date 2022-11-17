@@ -1,0 +1,51 @@
+.highlight{
+    background-color: green;
+    border-top-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    padding: 10px 6px 5px 6px;
+}
+
+.home-instructor{
+    background-color: green;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+
+.highlight-color:hover{
+    cursor: pointer !important;
+}
+
+.highlight-color:hover .highlight, .highlight-color:hover .home-instructor{
+    background-color: #5b3979 !important;
+    transition: 0.5s;
+}
+
+.top-input{
+    width: 32%;
+}
+
+.bottom-input{
+    width: 70%;
+}
+
+.contact-btn{
+    text-decoration: none;
+    color: white;
+    background-color: #5b3979;
+    padding: 6px 15px;
+    border-radius: 6px;
+}
+
+.contact-btn:hover{
+    color: white;
+    padding: 6px 25px;
+    transition: 0.5s;
+}
+
+.text-color-control{
+    color: var(--text-primary);
+}
+
+.bg-control{
+    background-color: var(--card-bg) !important;
+}

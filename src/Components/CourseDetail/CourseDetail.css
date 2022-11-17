@@ -1,0 +1,25 @@
+.instructor{
+    font-family: "Comic Sans MS";
+    color: #5b3979;
+    font-size: 18px;
+}
+
+.premium-btn{
+    background-color: gold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+
+.premium-btn:hover{
+    color: white;
+    padding: 15px 25px;
+    transition: 0.5s;
+}
+
+.details-bg{
+    background-color: var(--course-card-bg) !important;
+    color: var(--text-primary);
+}

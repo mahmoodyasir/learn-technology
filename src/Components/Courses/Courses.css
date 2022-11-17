@@ -1,0 +1,4 @@
+.course-bg-control{
+    background-color: var(--course-card-bg) !important;
+    color: var(--text-primary);
+}
